@@ -8,36 +8,84 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+display: block;
+text-align: center;
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
 
 /* Place code here */
-
+#exerciseTwo {
+	display: none;
+}
 
 
 /* Exercise Three: */
 
 /* Place code here */
+#exerciseThree {
 
+    margin-top:  100px;
+    margin-left: 200px
+}
 
 
 /* Exercise Four: */
 
 /* Place code here */
-
+#exerciseFour {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
 
 
 /* Exercise Five */
+/*
+The justify-content property accepts 5 different values:
 
+flex-start (default): items are packed toward the start line
+flex-end: items are packed toward to end line
+center: items are centered along the line
+space-between: items are evenly distributed in the line; first item is on the start line, last item on the end line
+space-around: items are evenly distributed in the line with equal space around them
+space-evenly: items are distributed so that the spacing between any two adjacent alignment subjects, before the first alignment subject, and after the last alignment subject is the same
+*/
 /* Place code here */
-
+#exerciseFive{
+	display: flex;
+  	flex-wrap: wrap;
+	align-content: stretch;
+	align-items: center;
+  	justify-content: space-between;
+	flex-direction: row-reverse;
+}
 
 
 /* Exercise Six */
 
+
+/* Exercise Seven */
 #exerciseSeven {
-  display: flex;
+  	display: flex;
+  	flex-direction: row;
+  	flex-wrap: wrap;
+	align-content: stretch;
+	align-items: center;
+  	justify-content: space-between;
+  	border-width: 5px 10px 20px 40px;
+  	border-color: red green blue yellow;
+}
+
+#exerciseSeven > .itemOne {
+}
+
+#exerciseSeven > .itemTwo {
+}
+
+#exerciseSeven > .itemThree {
+}
+
+#exerciseSeven > .itemFour {
 }
