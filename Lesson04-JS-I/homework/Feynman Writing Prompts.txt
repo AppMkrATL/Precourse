@@ -1,0 +1,30 @@
+Feynman the “Great Explainer.”
+==============================
+
+
+
+
+
+* Variables:
+------------
+In JavaScript, a variable contains a value, such as "hello" or 5. When you use the variable, you refer to the data it represents, for example NumberOfDaysLeft = EndDate - TodaysDate . You use variables to store, retrieve, and manipulate values that appear in your code.
+
+* Strings:
+---------
+Use the const statement to declare a variable with a constant value, the scope of which is restricted to the block in which it is declared. The value of the variable cannot be changed. A variable declared using const must be initialized when it is declared.
+
+
+* Functions (arguments, return):
+-------------------------------
+The concept of wrapping a piece of program in a value has many uses. It gives us a way to structure larger programs, to reduce repetition, to associate names with subprograms, and to isolate these subprograms from each other.
+- arguments are piece of information that's needed by the function to perform its job.
+- return is the result after a function completes its job.
+
+* if statements:
+---------------
+The keyword if tells JavaScript to start the conditional statement. () enclose the condition to test, the part contained inside curly braces {} is the block of code to run.
+the if statement is one of the many tools available to run blocks of code based on some specified conditions.
+
+* Boolean values (true, false):
+------------------------------
+they come in only two flavors: true or false and can only be one of those flavors at any given time.  they are equivalent to turning the light ON or OFF but the light can't be both ON and OFF at the same time: only one state can exist at any given time.
