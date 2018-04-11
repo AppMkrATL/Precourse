@@ -89,7 +89,7 @@ function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
 
-    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max
 
     return Math.max.apply(null, numbers);
 }
